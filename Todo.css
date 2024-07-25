@@ -1,0 +1,82 @@
+body {
+   font-family: Arial, sans-serif;
+   background-color: #f8f9fa;
+   margin: 0;
+   padding: 0;
+}
+
+.container {
+   max-width: 500px;
+   margin: 50px auto;
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   padding: 20px;
+}
+
+h1 {
+   text-align: center;
+   color: #333;
+}
+
+input[type="text"] {
+   width: 70%;
+   padding: 10px;
+   margin-right: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+button {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+button:hover {
+   background-color: #0056b3;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+li {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px;
+   border-bottom: 1px solid #eee;
+   font-size: 18px;
+}
+
+.button-container {
+   display: flex;
+}
+
+.deleteBtn,
+.editBtn {
+   background-color: #dc3545;
+   color: #fff;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.deleteBtn:hover,
+.editBtn:hover {
+   background-color: #c82333;
+}
+
+/* Add margin between buttons */
+.editBtn {
+   margin-right: 5px;
+}
